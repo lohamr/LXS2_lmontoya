@@ -1,4 +1,5 @@
     1  sudo su -
+<<<<<<< HEAD
     2  ls
     3  ls .mozilla/
     4  ls -la 
@@ -134,3 +135,53 @@
   134  ls
   135  git log 
   136  history > history/history-$HOSTNAME-`date +%Y%m%d`
+=======
+    2  ls /var/mail/
+    3  less /var/mail/mail 
+    4  sudo less /var/mail/mail 
+    5  sudo fdisk -l
+    6  su - user2
+    7  ls -la
+    8  sudo apt-get install git vim-nox
+    9  sudo apt-get update
+   10  ls/
+   11  ls /
+   12  mkdir
+   13  mkdir LSX2_lmontoya
+   14  cd LSX2_lmontoya
+   15  mkdir history
+   16  vim .gitignore
+   17  ls -a
+   18  mkdir src
+   19  mkdir misc
+   20  sudo apt-get install tree
+   21  touch history/file
+   22  touch misc/file
+   23  touch src/file
+   24  tree
+   25  git init
+   26  ls-la
+   27  ls -la
+   28  git config --global user.name "Lohana Montoya"
+   29  git config --global user.mail loha.montoya@gmail.com
+   30  pwd
+   31  cat ../.gitconfig
+   32  gis status
+   33  git status
+   34  git add.gitignore
+   35  git status
+   36  git add .gitignore
+   37  git status
+   38  touch misc/file2
+   39  tree
+   40  git status
+   41  git add misc/
+   42  git status
+   43  git add history/
+   44  git add src/
+   45  git status
+   46  git commit -m "Inicio del arbol de desarrollo"
+   47  ls -la
+   48  git log
+   49  history > history/history-$HOSTNAME-`date +%Y%m%d`
+>>>>>>> 9e5a05e064306cff01fec29553a2989daaa11d6f
