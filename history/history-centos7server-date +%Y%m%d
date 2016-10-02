@@ -1,0 +1,333 @@
+    1  fdisk -l
+    2  pv display
+    3  pvdisplay
+    4  exit
+    5  lsblk
+    6  yum install git
+    7  yum update
+    8  yum upgrade
+    9  install git
+   10  sudo install git
+   11  yum -y install iptraf
+   12  yum -y install mc
+   13  yum repolist
+   14  sudo install git
+   15  install --help
+   16  yum install git
+   17  yum-config-manager --save --setopt
+   18  rpm --import /etc/pki/rpm-gpg/RPM-GPG-KEY*
+   19  yum-config-manager --disable <yum>
+   20  yum-config-manager --disable <git>
+   21  yum repolist all
+   22  yum-config-manager --enabled <updates-source/7>
+   23  yum-config-manager --enabled updates-source/7
+   24  yum install git
+   25  yum repolist all
+   26  yum clean all
+   27  yum update
+   28  yum repolist all
+   29  yum update
+   30  yum update | more
+   31  yum-config-manager --disable base/7/x86_64_
+   32  yum-config-manager --disable base/7/x86_64
+   33  yum repolist all
+   34  yum-config-manager --disable base/7/x86_64
+   35  yum update | more
+   36  ping 8.8.8.8
+   37  yum ifcongif
+   38  yum ifconfig
+   39  nmclid d
+   40  nmcli d
+   41  nmtui
+   42  ping 8.8.8.8
+   43  yum install git
+   44  yum install ssh
+   45  pvdisplay
+   46  vgdisplay
+   47  lvdisplay
+   48  fdisk -l
+   49  vgdisplay
+   50  pvdisplay
+   51  lvdisplay
+   52  shutdown
+   53  power-off
+   54  ping
+   55  ping 8.8.8.8
+   56  lvmdiskscan
+   57  pvcreate /dev/sdb
+   58  pvdisplay
+   59  vgdisplay
+   60  pvdisplay
+   61  fdisk -l
+   62  lsblk
+   63  fdisk /dev/sdb
+   64  lvmdiskscan
+   65  pvcreate /dev/sdb2
+   66  vgextend VolGroup00 /dev/sdb
+   67  vgextend VolGroup00 /dev/sdb1
+   68  vgextend VolGroup00 /dev/sdc
+   69  pvdisplay
+   70  fdisk /dev/hdb
+   71  fdisk /dev/sdb
+   72  lvs
+   73  lvremove VolGroup00 /dev/sdb
+   74  vgreduce --all vg0
+   75  vgreduce --all VolGroup00
+   76  pvdisplay
+   77  lsblk
+   78  fdisk
+   79  fdisk /dev/sda
+   80  fdisk /dev/sdb
+   81  fdisk
+   82  fdisk -l
+   83  lsblk
+   84  fdisk /dev/sdb
+   85  shutdown
+   86  fdisk -l
+   87  exit
+   88  lsblk
+   89  fdisk -l
+   90  fdisk /dev/sdb
+   91  fdisk -l
+   92  lsblk
+   93  uname -r
+   94  localectl list-keymaps
+   95  localectl list-keymaps | grep es
+   96  localectl list-keymaps | grep latin
+   97  localectl list-keymaps | grep latin | more
+   98  localectl list-keymaps | grep ES
+   99  localectl list-keymaps | grep es
+  100  localectl list-keymaps | grep latin | more
+  101  localectl list-keymaps | grep sp
+  102  loadkeys es
+  103  localectl
+  104  ping 8.8.8.8
+  105  yum install kdb
+  106  yum install kbd
+  107  localectl list-keymaps | grep la 
+  108  localectl list-keymaps | grep la | more
+  109  loadkeys la-latin1
+  110  localectl set-keymap la-latin1
+  111  echo "Lohana no me quiere"
+  112  echo "Diga lo que siente"
+  113  cierrese por favor
+  114  porfis?
+  115  porfitas?
+  116  history | less
+  117  su lohana
+  118  shutdown
+  119  fdisk
+  120  history | less
+  121  vgdisplay
+  122  history | less
+  123  fdisk /dev/sdb
+  124  lsblk
+  125  fdisk -l
+  126  lvmdiskscan
+  127  vgdisplay
+  128  pvdisplay
+  129  vgdisplay
+  130  vgextend centos_centos7server sdb
+  131  lsblk
+  132  vgextend centos_centos7server sdb1
+  133  vgextend centos_centos7server /dev/sdb
+  134  fdisk dev/sdb
+  135  fdisk /dev/sdb
+  136  vgextend centos_centos7server /dev/sdb2
+  137  vgextend centos_centos7server /dev/sdb3
+  138  fdisk
+  139  lsblk
+  140  vgdisplay
+  141  lvdisplay
+  142  lsblk
+  143  lvresize -L +200m centos_centos7server-swap
+  144  lvresize -L +200m centos_centos7server-swap/dev/sdb
+  145  lvresize -L +200m centos_centos7server-swap/dev/sdb1
+  146  lvresiz --helpe
+  147  lvresiz --help
+  148  lvresize --help
+  149  lvdisplay
+  150  lvresize -L +200m centos_centos7server-swap/dev/centos_centos7server/swap
+  151  lvresize -L +200M centos_centos7server/swap
+  152  lvdisplay
+  153  lvdisplay | more
+  154  lsblk
+  155  lvdisplay
+  156  lvdisplay | more
+  157  pvdisplay
+  158  pvdisplay | more
+  159  pvdisplay | less
+  160  resize2fs centos_centos7server/dev/sda2
+  161  resize2fs centos_centos7server/sda2
+  162  resize2fs centos_centos7server/sda
+  163  resize2fs -h
+  164  pvdisplay | less
+  165  lvdisplay
+  166  lsblk
+  167  resize2fs /dev/centos_centos7server/sda2
+  168  resize2fs /dev/centos_centos7server/swap
+  169  resize2fs /dev/centos_centos7server/sda
+  170  resize2fs /dev/centos_centos7server/sdb
+  171  lvdisplay
+  172  resize2fs centos_centos7server/swap
+  173  resize2fs /dev/centos_centos7server/swap
+  174  swapoff /dev/centos_centos7server-swap
+  175  swapoff /dev/dm-1
+  176  mkswap /dev/dm-1
+  177  swapon /dev/dm-1
+  178  swapon -s
+  179  lvresize -L +512m centos_centos7server-root
+  180  lvresize -L +512M centos_centos7server-root
+  181  lvresize -L +512M centos_centos7server/root
+  182  resize2fs /dev/centos_centos7server/root
+  183  lsblk
+  184  vgdisplay
+  185  vgdisplay | more
+  186  vgdisplay.
+  187  vgdisplay
+  188  pvdisplay
+  189  pvdisplay | more
+  190  pvdisplay | less
+  191  history | less
+  192  git config --global user.name "lohamr"
+  193  git config --global user.email loha.montoya@gmail.com
+  194  git add Proyectos
+  195  git init
+  196  git add Proyectos
+  197  git init Proyectos
+  198  cd Proyectos
+  199  gedit README
+  200  mkdir proyecto-1
+  201  git add .
+  202  git commit -m "Primer Proyecto"
+  203  git remote add origin https://github.com/lohamr/Proyectos.git
+  204  git push origin master
+  205  git remote add origin https://github.com/lohamr/LXS_lmontoya
+  206  git remote add origin https://github.com/lohamr/LXS_lmontoya.git
+  207  cd ..
+  208  yum install vim
+  209  vim .bash_history
+  210  history | less
+  211  cd Proyectos
+  212  mkdir proyecto-1
+  213  ls
+  214  cd proyecto-1
+  215  mkdir history
+  216  vim .gitignore
+  217  ls
+  218  tree
+  219  touch history/file
+  220  tree .git
+  221  ls
+  222  cd proyecto-1cd /tmp/
+  223  cd ..
+  224  ls
+  225  cd ..
+  226  git remote add Proyectos https://github.com/lohamr/LXS_lmontoya.git
+  227  git add .
+  228  git push Proyectos master
+  229  git remote add Proyectos https://github.com/lohamr/LXS_lmontoya
+  230  git remote add Proyectos https://github.com/lohamr/LXS2_lmontoya.git
+  231  cd proyectos
+  232  cd Proyectos
+  233  git remote add Proyectos https://github.com/lohamr/LXS2_lmontoya.git
+  234  git add .
+  235  git push Proyectos master
+  236  yum install tree
+  237  cd Proyectos
+  238  tree
+  239  git status
+  240  git add history/
+  241  vim .bash_history | less
+  242  vim .bash_history
+  243  history | less
+  244  fdisk /dev/sdb
+  245  history | less
+  246  ls
+  247  rm proyectos
+  248  rm Proyectos
+  249  cd Proyectos
+  250  ls
+  251  rm proyecto-1
+  252  rm -r proyecto-1
+  253  ls
+  254  rm -r proyecto-1
+  255  ls
+  256  cd ..
+  257  rm -r Proyectos
+  258  y
+  259  git status
+  260  ls
+  261  history
+  262  pwd
+  263  mkdir mirepo
+  264  cd mirepo
+  265  git clone https://github.com/emvarg/LXS2_emmanuel.git
+  266  git add .
+  267  git commit -m "Repoprofe"
+  268  git remote add origin git@github.com:lohamr/LXS_lmontoya.git
+  269  git push -u origin master
+  270  ls
+  271  git remote add origin https://github.com/lohamr/LXS_lmontoya.git
+  272  git status
+  273  cd ..
+  274  git config 
+  275  git config --global user.name "lohamr"
+  276  git config --global user.mail loha.montoya@gmail.com
+  277  git status
+  278  cd mirepo
+  279  git add .
+  280  git pull origin master
+  281  ls
+  282  cd LXS2_emmanuel
+  283  ls
+  284  cd misc
+  285  ls
+  286  cat file
+  287  cd ..
+  288  cd history
+  289  ls
+  290  cd ..
+  291  git remote https://github.com/lohamr/LXS2_lmontoya.git
+  292  git remote add origin https://github.com/lohamr/LXS2_lmontoya.git
+  293  rm origin
+  294  git remote rm origin
+  295  git remote add origin https://github.com/lohamr/LXS2_lmontoya.git
+  296  git remote -v
+  297  git push origin master
+  298  git add .
+  299  git commit -m "prueba"
+  300  git remote rm origin
+  301  git remote add carpeta https://github.com/lohamr/LXS2_lmontoya.git
+  302  git push carpeta master
+  303  git remote rm origin
+  304  git remote add origin https://github.com/emvarg/LXS2_emmanuel.git
+  305  git add .
+  306  git commit -m "otra prueba"
+  307  git remote rm origin
+  308  git remote add carpeta https://github.com/emvarg/LXS2_emmanuel.git
+  309  git remote rm carpeta
+  310  git remote add carpeta https://github.com/emvarg/LXS2_emmanuel.git
+  311  git add .
+  312  git commit -m "otra prueba"
+  313  git commit -a "otra prueba"
+  314  git pull carpeta master
+  315  git push carpeta master
+  316  git remote add mirepo https://github.com/lohamr/LXS2_lmontoya.git
+  317  git add .
+  318  git push mirepo master
+  319  git status
+  320  git add .
+  321  git status
+  322  cd ..
+  323  ls history/
+  324  git clone https://github.com/lohamr/LXS2_lmontoya.git
+  325  history
+  326  ls
+  327  cd LXS2_lmontoya
+  328  ls
+  329  git status
+  330  ls history/
+  331  ls history/ -l
+  332  ls -l
+  333  history > history/history-$HOSTNAME-'date +%Y%m%d'
