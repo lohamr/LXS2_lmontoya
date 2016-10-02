@@ -1,0 +1,12 @@
+ Comando fdisk /dev/sdb: con este comando empecé el particionado del disco duro de 1G que agregué.
+ Comando vgdisplay:Para ver el nombre del grupo de volumenes.
+ Comando vgextend: lo utilicé para extender el grupo de volumenes creado por centos utilizando el disco de 1G que agregué.
+ Comando lvdisplay: para ver el nombre del volumen lógico swap.
+ Comando lvresize -L: lo utilicé para extender swap en 200M
+ Comando mkswap: para ver el nombre del dispositivo
+ Comando swapoff: para desactivar la partición
+ Comando swapon: para activarla nnuevamente y que el extendido sea reconocido.
+ Comando lvresize -L: Para extender root en 512M.
+ Comando resize2fs: para que se reconzca el extendido de root.
+ Comando vgdisplay: para ver los cambios.
+ 
