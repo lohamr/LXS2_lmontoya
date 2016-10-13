@@ -1,5 +1,5 @@
 #!/bin/bash
-#este scrip respalda tres archivos en caso de que existan, de una manera jerarquica:
+#este script respalda tres archivos en caso de que existan, de una manera jerarquica:
 
 if test -e $1 $1.bck
 then

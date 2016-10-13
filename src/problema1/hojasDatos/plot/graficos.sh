@@ -18,10 +18,3 @@ graficar()
 EOF
 }
 graficar
-
-m=0
-for k in 'find $GRAF_DATA -name "*.dat"'
-do
-	sed '1d' $k >> $FULL_DATA/full.dat
-	let m=m+1
-done 2> error3.log

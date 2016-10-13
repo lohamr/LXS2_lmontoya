@@ -1,4 +1,8 @@
-         line 0: warning: Cannot find or open file "graf-0.dat"
-         line 0: warning: Cannot find or open file "graf-0.dat"
+         line 0: warning: Skipping data file with no valid points
          line 0: Can't plot with an empty x range!
+
+
+gnuplot> ,"/home/lohana/LXS2_lmontoya/src/problema1/hojasDatos/full_datos/full.dat" using 1:4 with linespoints title "sensor2"
+         ^
+         line 0: invalid command
 
