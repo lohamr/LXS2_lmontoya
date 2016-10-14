@@ -22,14 +22,14 @@ m=0
 for e in `find $OUT_DATA -name "*.csv"`
 do
 	echo "Dando formato de datos para graficar archivo $e"
-	cat $e | awk -F "/",/"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | sed '1,$ s/"//g' | sed '1 s/date/#date/g' > $GR AF_DATA/graf-$m.dat
+	cat $e | awk -F "\",\"" '{print $1 " " $2 " " $3 " " $4 " " $5}' | sed '1,$ s/"//g' | sed '1 s/date/#date/g' > $GR AF_DATA/graf-$m.dat
 	let m=m+1
 done 2> error2.log
 
 #Este condicional elimina el archivo full.dat ya que si corre varias veces
 #entonces se agregaran mas datos al archivo en lugar de crearlo con los
-#datos generados. O sea, se agregan por cada corrida un duplicado de los mismos #datos.
-
+#datos generados. O sea, se agregan por cada corrida un duplicado de los mismo
+#s datos.
 if [ -a $FULL_DATA/full.dat ]
 then 
 	rm $FULL_DATA/full.dat

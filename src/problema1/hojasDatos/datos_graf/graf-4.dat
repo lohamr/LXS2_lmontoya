@@ -1,2 +1,0 @@
-Usage:    
- xls2csv [-xlV] [-g number] [-f date-format] [-b string] [-s charset] [-d charset] [-c char] [ -q number] files    
