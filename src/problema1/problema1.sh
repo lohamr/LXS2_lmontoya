@@ -65,7 +65,7 @@ graficar()
 	set terminal png
 	set output 'fig1.png'
 	plot "$DATA_DONE" using 1:3 with lines title "sensor1"
-	,"$DATA_DONE" using 1:4 with linespoints title "sensor2"
+#	,"$DATA_DONE" using 1:4 with linespoints title "sensor2"
 EOF
 
 }
