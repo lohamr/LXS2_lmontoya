@@ -32,5 +32,7 @@ do
 	echo "VAR1 es: $VAR1"
 done
 
-
-
+for PARAM in "$*"
+do
+	echo "El parametro $VA
+	let "VAR1=$VAR1+1
