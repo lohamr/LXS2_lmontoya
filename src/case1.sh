@@ -2,21 +2,25 @@
 
 #Ejemplo de clase, determina si la distro est[a soportada
 
-shop -s nocasematch
+shopt -s nocasematch
 
 DISTRO=$1
 
-
+#Las funciones se deben definir antes de ser llamadas.
+mensaje ()
+{
+echo "Distrubicion $DISTRO soportada"
+}
 
 case "$DISTRO" in
 	Ubuntu)
-		echo "Distrubicion $DISTRO soportada"
+		mensaje
 	;;
 	Centos)
-		echo "Distrubicion $DISTRO soportada"
+		mensaje
 	;;
 	Fedora)
-		echo "Distribucion $DISTRO soportada"
+		mensaje
 	;;
 	*)
 		echo "Distribucion no soportada"
