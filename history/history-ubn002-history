@@ -1,0 +1,1000 @@
+    5  clear
+    6  pwd
+    7  cd /home/sysadmin/LXS2_ivindas/
+    8  ls
+    9  cd history/
+   10  ls
+   11  cat history_12072016_ubn002 
+   12  cat history_05072016 
+   13  clear
+   14  git clone https://github.com/emvarg/LXS2_evargas.git
+   15  ls
+   16  cd LXS2_evargas/history/
+   17  ls
+   18  cd ..
+   19  ls
+   20  git status
+   21  sudo rm -r LXS2_evargas/
+   22  ls
+   23  git status
+   24  history 
+   25  cat history_05072016 
+   26  ls
+   27  cd ..
+   28  ls
+   29  cd tareas/
+   30  ls
+   31  cat file1 
+   32  cd
+   33  sudo su
+   34  sudo apt-get install git
+   35  cleaer
+   36  git clone https://github.com/ivevin/LXS2_ivindas.git
+   37  ls
+   38  cd LXS2_ivindas/
+   39  ls
+   40  cd history/
+   41  ls
+   42  sudo apt-get install tree
+   43  tree
+   44  cd ..
+   45  tree
+   46  cd LXS2_ivindas/history/
+   47  ls
+   48  history > history_12072016_$HOSTNAME 
+   49  ls -l
+   50  pwd
+   51  git status
+   52  git add history_12072016_ubn002 
+   53  git status
+   54  git commit -m "History de la clase de LVM parte 1"
+   55  git config --global user.email ivettevindas@hotmail.com
+   56  git config --global user.name "Ivette"
+   57  git commit -m "History de la clase de LVM parte 1"
+   58  pwd
+   59  git push origin master
+   60  cat history_12072016_ubn002 
+   61  sudo su
+   62  ls -l
+   63  rm history_12072016_ubn002 
+   64  ls -l
+   65  ls
+   66  ls -l
+   67  clear
+   68  history
+   69  id
+   70  #sudo usermode -a -G libvirtd sysadmin
+   71  #este comando no se ejecuto porque ubuntu lo hizo automaticamente, en sistemas como centos hay que hacerlo
+   72  sudo apt-get install qemu-system
+   73  sudo su
+   74  ls
+   75  cd LXS2_ivindas/
+   76  mkdir scripts
+   77  cd scripts/
+   78  vim TMP_vir.sh
+   79  sudo apt-get install vim
+   80  sudo su
+   81  ls
+   82  cd /tmp/
+   83  LS -L
+   84  ls -l
+   85  cd dev/LXS2_evargas/
+   86  ls
+   87  cd scripts/
+   88  ls
+   89  cp -a TMP_vir.sh /home/sysadmin/LXS2_ivindas/scripts/
+   90  cd
+   91  ls
+   92  cd LXS2_ivindas/scripts/
+   93  ls
+   94  vim TMP_vir.sh 
+   95  git add TMP_vir.sh 
+   96  git status
+   97  git commit -m "Agregar script"
+   98  git push origin master
+   99  cat TMP_vir.sh
+  100  vim TMP_vir.sh 
+  101  cd /tmp/dev/LXS2_evargas/
+  102  ls
+  103  git log
+  104  git pull origin master
+  105  ls
+  106  ls -k
+  107  ls -l
+  108  sudo chown sysadmin:sysadmin -R /tmp/dev/LXS2_evargas/
+  109  ls -l
+  110  git pull origin master
+  111  cd scripts/
+  112  ls
+  113  cp -a cnts00.sh /home/sysadmin/LXS2_ivindas/scripts/
+  114  cd /home/sysadmin/LXS2_ivindas/scripts/
+  115  ls -l
+  116  git add cnts00.sh 
+  117  git status
+  118  git commit -m "agregar script para crear VM Centos"
+  119  git push origin master
+  120  ls -l
+  121  chmod 755 cnts00.sh 
+  122  ./cnts00.sh 
+  123  mkdir -p /srv/servidores
+  124  sudp mkdir -p /srv/servidores
+  125  sudo mkdir -p /srv/servidores
+  126  ./cnts00.sh 
+  127  ls -l/srv/servidores
+  128  ls -l /srv/servidores
+  129  ls -l /srv/
+  130  ./cnts00.sh
+  131  ls /srv/
+  132  ./cnts00.sh
+  133  ls /home/sysadmin/Downloads/
+  134  ./cnts00.sh
+  135  sudo ./cnts00.sh
+  136  cd ..
+  137  git status
+  138  cd history/
+  139  history > history_12072016_ubn002
+  140  ls
+  141  git status
+  142  git add history_12072016_ubn002 
+  143  cd ../scripts/
+  144  git add  cnts00.sh 
+  145  git commit -m "History de la clase 3"
+  146  git push origin master
+  147  cd ../history/
+  148  cat history_12072016_ubn002 
+  149  sudo init 0
+  150  sudo su -
+  151  sudo su
+  152  cd ../scripts/
+  153  cat cnts00.sh 
+  154  cd /srv/servidores/
+  155  ls
+  156  rm cnts00.img 
+  157  sudo rm cnts00.img 
+  158  ls
+  159  ifconfig 
+  160  cd /home/sysadmin/LXS2_ivindas/
+  161  ls
+  162  cd scripts/
+  163  ñs
+  164  ls
+  165  cat cnts00.sh 
+  166  ./cnts00.sh 
+  167  cd ..
+  168  clear
+  169  ls
+  170  cd tareas/
+  171  touch test.txt
+  172  git status
+  173  git add test.txt 
+  174  git commit -m "subir archivo test"
+  175  git log
+  176  git push origin master
+  177  git status
+  178  history
+  179  git loh
+  180  git log
+  181  sudo apt-get install virt-viewer
+  182  cd ../scripts/
+  183  ./cnts00.sh 
+  184  sudo ./cnts00.sh 
+  185  cat cnts00.sh 
+  186  virsh
+  187  cd ../tareas/
+  188  mkdir proyecto1
+  189  git status
+  190  ls
+  191  git add proyecto1/
+  192  git status
+  193  git commit -m "carpeta proyecto1"
+  194  git push
+  195  ls
+  196  cd proyecto1/
+  197  touch proyecto.txt
+  198  git sta
+  199  git status 
+  200  git add proyecto.txt 
+  201  git commit -m "Agregar carpeta de Proyecto 1"
+  202  git push origin master
+  203  cd
+  204  ssh 192.168.122.1
+  205  ssh-keygen 
+  206  ls .ssh/
+  207  ssh-copy-id 192.168.122.217
+  208  ssh 192.168.122.217
+  209  clear
+  210  lvdisplay 
+  211  sudo lvdisplay 
+  212  ls /mnt/respaldos/
+  213  mount /dev/server01/data01 /mnt/respaldos/
+  214  sudo su
+  215  echo $var1
+  216  var1=perro
+  217  echo $var1
+  218  exut
+  219  exit
+  220  echo $var2
+  221  echo $var2
+  222  echo $var1
+  223  bash
+  224  cd
+  225  sudo apt-get install htop
+  226  htop
+  227  export var1=casas2
+  228  echo $var1 
+  229  bash
+  230  echo $var1 
+  231  unset $var1
+  232  echo $var1
+  233  echo var1
+  234  unset var1
+  235  echo $var1
+  236  env
+  237  env | grep PWD
+  238  cd /usr/share/doc/vim-common/
+  239  env | grep PWD
+  240  echo $USER
+  241  echo $UID
+  242  echo $HOSTNAME
+  243  vim /etc/bash.bashrc 
+  244  cd
+  245  vim .bashrc 
+  246  source .bashrc 
+  247  vim .bashrc 
+  248  echo $var2
+  249  source .bashrc 
+  250  echo $var2
+  251  df
+  252  echo $HOSTNAME
+  253  var1=casa
+  254  var2=perro
+  255  echo "la $var1 del $var2 es roja"
+  256  cd /usr/share/doc/vim-runtime/
+  257  pwd
+  258  var1=/usr/share/doc/vim-runtime/
+  259  cd
+  260  echo $var1
+  261  cd $var1
+  262  cd LXS2_ivindas/history/
+  263  ls
+  264  history history_15072016_$HOSTNAME 
+  265  history > history_15072016_$HOSTNAME 
+  266  sudo su
+  267  sudo apt-get install catdoc
+  268  man bash
+  269  bash --version
+  270  echo $BASH_VERSION
+  271  echo "Prueba" > prueba.txt
+  272  ls
+  273  cat prueba.txt 
+  274  sudo su 
+  275  ls
+  276  cd /tmp/
+  277  ls
+  278  history > file1
+  279  history > file2
+  280  dmesg > file1
+  281  sudo dmesg > file1
+  282  history > file1
+  283  ls
+  284  ls -l
+  285  history > file2
+  286  dmesg > file2
+  287  history > file2
+  288  ls -l
+  289  dmesg | tail >> file2
+  290  less file2
+  291  cp playa /home 2> error.log
+  292  cat error.log 
+  293  dmesg head >> error.log 
+  294  cat error.log 
+  295  cp playa /home 2> error.log
+  296  cat error.log 
+  297  dmesg | head >> error.log 
+  298  cat error.log 
+  299  cat error.log | grep stat > error-1.log 
+  300  cat error-1.log 
+  301  mkdir folder{1,2,3}
+  302  touch folder{1,2,3}/file-{a,b}
+  303  tree folder*
+  304  mkdir folder 
+  305  mv folder folder-m
+  306  mv folder{1,2,3} folder-m/
+  307  cd folder-m/
+  308  tree
+  309  for i in folder1 folder2 folder3 folder4; do ls -l $i; done
+  310  for i in folder1 folder2 folder3 folder4; do ls -l $i; done > process.log
+  311  for i in folder1 folder2 folder3 folder4; do ls -l $i; done 2> process.log
+  312  cat process.log 
+  313  for i in folder1 folder2 folder3 folder4; do ls -l $i; done &> process.log
+  314  cat process.log 
+  315  echo lolo
+  316  echo $HOSTNAME
+  317  echo yo tengo $100
+  318  echo "yo tengo \$100"
+  319  echo 4*2>10 es falso
+  320  cat 10 
+  321  help set
+  322  echo tengo \$100
+  323  echo 'tengo $100'
+  324  echo "tengo $100"
+  325  echo "estoy en el servidor $HOSTNAME y soy $USER"
+  326  echo "estoy en el servidor $HOSTNAME y soy $USER, ademas tengo \$200"
+  327  echo "estoy en el servidor $HOSTNAME, `ls -l`"
+  328  history > history_`date +%Y%m%d`-$HOSTNAME
+  329  ls
+  330  htop
+  331  pstree | less
+  332  ps aux | grep light
+  333  sudo kill -9 1495
+  334  ps aux | grep light
+  335  htop
+  336  pstree | less
+  337  ps
+  338  ps aux | less
+  339  ps aux | grep sshd
+  340  netstat -ltunp
+  341  yes
+  342  jobs
+  343  ping 127.0.0.1 > /dev/null 
+  344  ping 127.0.0.1 > /dev/null &
+  345  jobs
+  346  cd /tmp/
+  347  dmesg > file
+  348  vim file
+  349  ls 
+  350  vim file
+  351  fg
+  352  jobs
+  353  vim file
+  354  jobs
+  355  fg 3
+  356  jobs
+  357  fg
+  358  jobs
+  359  ps
+  360  ps -l
+  361  pstree | less
+  362  ls
+  363  cd LXS2_ivindas/
+  364  ls
+  365  cd history/
+  366  ls
+  367  history > history_19072016
+  368  ls
+  369  sudo su
+  370  mv history_19072016 history_19072016_ubn002 
+  371  ls
+  372  mv history059072016 history_05072016_ubn002 
+  373  mv history_059072016 history_05072016_ubn002 
+  374  mv history_05072016 history_05072016_ubn002 
+  375  ls
+  376  ls -l
+  377  sudo chown sysadmin:sysadmin history-root_19072016_ubn002 
+  378  git status
+  379  git add history*
+  380  git commit -m "History de la clase 190716"
+  381  git status
+  382  git log
+  383  git push origin master
+  384  git status
+  385  git rm history_05072016
+  386  git status
+  387  git commit -m "Eliminar history_05072016"
+  388  git push origin master
+  389  history 
+  390  sudo vim .bashrc 
+  391  updatrepo
+  392  updaterepo
+  393  sudo vim .bashrc 
+  394  updaterepo
+  395  source .bashrc 
+  396  updaterepo
+  397  d
+  398  cd
+  399  history 
+  400  vim /tmp/file1
+  401  jobs
+  402  fg
+  403  jobs
+  404  ps aux
+  405  ps aux | more
+  406  pgrp nm-applet
+  407  sudo su 
+  408  jobs -l
+  409  sudo nice -n -19 yes hola mundo > /dev/null &
+  410  jobs -l
+  411  ps -la
+  412  sudo renice -n 2 -p 7704
+  413  ps -la
+  414  free -h
+  415  free -m
+  416  echo $SHELL
+  417  echo $BASH_VERSION
+  418  ls
+  419  cd LXS2_ivindas/
+  420  cd scripts/
+  421  ls
+  422  file cnts00.sh 
+  423  cd
+  424  cd /tmp/
+  425  ls
+  426  cd
+  427  ls
+  428  git clone https://github.com/emvarg/LXS2_evargas.git
+  429  ls
+  430  cd LXS2_evargas/
+  431  ls
+  432  cd ../LXS2_ivindas/
+  433  cd src/
+  434  ls
+  435  vim SpecVars.sh
+  436  cd ../history/
+  437  ls
+  438  history > history_22072016_ubn002 
+  439  cd ../src/
+  440  ls
+  441  vim SpecVars.sh
+  442  bash SpecVars.sh
+  443  ls
+  444  rm archivo1.txt*
+  445  bash SpecVars.sh
+  446  cd ../history/
+  447  ls
+  448  history > history_22072016_ubn002 
+  449  sudo su
+  450  sudo chown sysadmin:sysadmin history-root_22072016_ubn002 
+  451  git status
+  452  git add *
+  453  git commit -m "History de la clase 6"
+  454  git log
+  455  updaterepo
+  456  git status
+  457  ls
+  458  cd history/
+  459  ls
+  460  ls -l
+  461  git status
+  462  cd ../scripts/
+  463  git status
+  464  git add *
+  465  git status
+  466  git add ../src/SpecVars.sh ../src/SpecVars.sh.err
+  467  git commit -m "subir script"
+  468  git log
+  469  updaterepo
+  470  ifconfig 
+  471  git push origin master
+  472  ls -la
+  473  bash SpecVars.sh 
+  474  ls
+  475  ls -l
+  476  cat SpecVars.sh.err 
+  477  echo " " > SpecVars.sh.err
+  478  cat SpecVars.sh.err 
+  479  dmesg | tail > archivo1.txt
+  480  ls -l
+  481  bash SpecVars.sh 
+  482  rm archivo1.txt*
+  483  ls
+  484  bash SpecVars.sh 
+  485  rm file1 
+  486  ls
+  487  rm SpecVars.sh.err 
+  488  bash SpecVars.sh 
+  489  LS
+  490  sl
+  491  ls
+  492  cat SpecVars.sh.err 
+  493  echo $ERRORLOG
+  494  dmesg | tail > archivo1.txt
+  495  ls -l
+  496  rm SpecVars.sh.err 
+  497  ls -l
+  498  bash SpecVars.sh 
+  499  ls -l
+  500  sudo apt-get install exim4
+  501  sudo vim /etc/exim4/update-exim4.conf.conf 
+  502  sudo dpkg-reconfigure exim4
+  503  sudo dpkg-reconfigure exim4-config
+  504  sudo update-exim4.conf
+  505  echo "Este es mi primer correo" | mail -s "prueba de correo" ivettevindas@hotmail.com
+  506  nmap localhost
+  507  ls /var/mail/
+  508  ls
+  509  cd LXS2_ivindas/
+  510  pwd
+  511  ls
+  512  git clone https://github.com/emvarg/LXS2_evargas
+  513  ls
+  514  cd LXS2_evargas/
+  515  git pull origin master 
+  516  ls
+  517  cd src/
+  518  ls
+  519  cp * ../../LXS2_ivindas/src/
+  520  ls ../../LXS2_ivindas/src/
+  521  cd ..
+  522  ls
+  523  cd scripts/
+  524  ls
+  525  cd ..
+  526  cd history/
+  527  ls
+  528  cp history_26072016-ubn000 history-root_26072016-ubn000 ../../LXS2_ivindas/history/
+  529  vim /etc/shadow
+  530  less /etc/shadow
+  531  sudo less /etc/shadow
+  532  su -c whoami
+  533  su -
+  534  sudo su -
+  535  su -c whoami
+  536  whoami
+  537  vim /etc/sudoers
+  538  sudo vim /etc/sudoers
+  539  sudo visudo
+  540  update-alternatives --config editor
+  541  sudo update-alternatives --config editor
+  542  apt-get install vim-nox
+  543  sudo apt-get install vim-nox
+  544  sudo visudo
+  545  cdcd
+  546  sudo visudo
+  547  cd
+  548  cd /etc/
+  549  cp sudoers sudoers.bk
+  550  sudo cp sudoers sudoers.bk
+  551  sudo visudo
+  552  sudo update-alternatives --config editor
+  553  sudo visudo
+  554  man sudoers
+  555  man visudo
+  556  id
+  557  sudo adduser user1
+  558  sudo adduser user2
+  559  cd /etc/skel/
+  560  ls
+  561  cat examples.desktop 
+  562  ls -al
+  563  which passwd
+  564  which useradd
+  565  which adduser
+  566  which userdel
+  567  which usermod
+  568  cd
+  569  sudo usermod -a -G libvirtd user1
+  570  id user1
+  571  ls
+  572  cd LXS2_ivindas/
+  573  cd history/
+  574  history > history_29072016-ubn002 
+  575  git status
+  576  git add *
+  577  cd ../src/
+  578  git add *
+  579  git commit -m "History clase 29 y archivos"
+  580  git log
+  581  git push origin master
+  582  ls -l
+  583  git push origin master
+  584  git status
+  585  ls
+  586  cd ../history/
+  587  ls
+  588  git push origin master
+  589  tree
+  590  cd ..
+  591  tree
+  592  git push origin master
+  593  git status
+  594  cd src/
+  595  git rm file1 
+  596  git status
+  597  git commit -m "commit nuevo"
+  598  git push origin master
+  599  cd ..
+  600  ls -l -R
+  601  tree
+  602  cd ..
+  603  cd LXS2_ivindas/
+  604  ls
+  605  git push origin master
+  606  git pull origin master
+  607  ls
+  608  git push origin master
+  609  git push --help
+  610  git push LXS2_ivindas master
+  611  git push LXS2_ivindas.git master
+  612  git push origin master
+  613  cd ..
+  614  cd LXS2_
+  615  cd LXS2_evargas/
+  616  ls -l -R
+  617  tree
+  618  ls
+  619  virsh net-autostart red_privadad
+  620  virsh net-autostart red_privada
+  621  virsh net-list
+  622  virsh net-start red_privada
+  623  virsh net-list
+  624  virsh net-start red_privada_dhcp
+  625  virsh net-autostart red_privada_dhcp
+  626  virsh net-list
+  627  exit
+  628  history | less
+  629  ls .bash_history
+  630  tail .bash_history
+  631  pwd
+  632  ls -la
+  633  ls -la | grep git
+  634  cat .gitconfig
+  635  sudo apt-get install vimtutor
+  636  sudo apt-get install vim tutor
+  637  vim
+  638  sudo apt-get install vim-nox
+  639  sudo apt-get install git
+  640  sudo ap
+  641  sudo apt-get install ssh-server
+  642  sudo apt-get install openssh-server
+  643  ifconfid
+  644  ifconfig
+  645  ip -4 addr
+  646  mkdir LXS2_fgarcia
+  647  cd LXS2_fgarcia
+  648  ls
+  649  pwd
+  650  mkdir history
+  651  vim .gitignore
+  652  tree
+  653  ls -a
+  654  ls
+  655  mkdir misc
+  656  mkdir src
+  657  tree
+  658  touch history/file
+  659  touch misc/file
+  660  touch src/file
+  661  tree
+  662  git init
+  663  ls -la
+  664  tree .git
+  665  git config --global user.name "Francisco Garcia"
+  666  git config --global user.email fgarcia.lopez@hotmail.com
+  667  pwd
+  668  cat ../.gitconfig
+  669  git init
+  670  git status
+  671  git add .gitignore
+  672  git status
+  673  touch misc/file2
+  674  tree
+  675  git status
+  676  git add misc/
+  677  git status
+  678  git add history/
+  679  git add src/
+  680  tree
+  681  git status
+  682  git commit -m "Inicio del arbol de desarrollo"
+  683  ls -la
+  684  git log
+  685  history > history/history-$HOSTNAME-`date +%Y%m%d`
+  686  tree
+  687  date
+  688  man date
+  689  git status
+  690  git add history/
+  691  git commit -m "history-
+  692  git commit -m "history inicial de clase 1"
+  693  git log
+  694  wc history/history-ubn002-20160910 
+  695  gitk
+  696  sudo apt-get install gitk
+  697  gitk
+  698  quit
+  699  history
+  700  git remote add origin https://github.com/pancho70/LXS2_fgarcia.git
+  701  git remote -v
+  702  git push origin master 
+  703  dmesg
+  704  dmesg | less
+  705  dmesg | wc
+  706  dmesg | head | wc
+  707  dmesg | tail | wc
+  708  dmesg | tail
+  709  dmesg | tail > misc/file
+  710  dmesg | head > misc/file
+  711  dmesg | head > misc/file2
+  712  git status
+  713  git add misc/file
+  714  git sta
+  715  git status
+  716  git commit -m "agrego la cabeza de dmesg a file2"
+  717  git log
+  718  git push origin master 
+  719  git sta
+  720  git status 
+  721  echo " " > misc/file2
+  722  cat /etc/network/interfaces >> misc/file2
+  723  dmesg | head > misc/file2
+  724  cat misc/file2
+  725  echo " " >> misc/file2
+  726  cat misc/file2
+  727  cat /etc/network/interfaces >> misc/file2
+  728  cat misc/file2
+  729  history
+  730  git add misc/file2
+  731  git status 
+  732  cp ../.bashrc .
+  733  LS
+  734  ls
+  735  ls -a
+  736  git status 
+  737  mv .bashrc misc/bashrc
+  738  git status 
+  739  git add misc/bashrc 
+  740  git status 
+  741  git commit  -m "modifico file2 y agrego bashrc"
+  742  git push origin master 
+  743  git log
+  744  vim bashrc
+  745  vim .bashrc
+  746  vim /home/sysadmin/.bashrc
+  747  cd misc
+  748  ls
+  749  git status
+  750  git diff
+  751  echo
+  752  echo hola como estan
+  753  echo $HOSTNAME
+  754  VAR1=casa
+  755  echo $VAR1
+  756  declare | grep HOST
+  757  cd ../
+  758  history/history-$HOSTNAMR-`date +%Y%m%d`-Final-de-clase
+  759  history/history-$HOSTNAME-`date +%Y%m%d`-Final-de-clase
+  760  git status
+  761  git add history-ubn000-20160910-Final-de-clase
+  762  git add history-ubn002-20160910-Final-de-clase
+  763  ls
+  764  cd history
+  765  git add history-ubn002-20160910-Final-de-clase
+  766  git add history-ubn000-20160910-Final-de-clase
+  767  history/history-$HOSTNAME-`date +%Y%m%d`-Final-de-clase
+  768  history/history-$HOSTNAME-`date +%Y%m%d`-Final-de-clasels
+  769  ls
+  770  history/history-$HOSTNAME-`date +%Y%m%d`-Final-de-clase
+  771  git add history-ubn002-20160910-Final-de-clase
+  772  history
+  773  history >history/history-$HOSTNAME-`date +%Y%m%d`-Final-de-clase
+  774  history > history/history-$HOSTNAME-`date +%Y%m%d`-Final-de-clase
+  775  history > history/history-$HOSTNAME-`date +%Y%m%d`-Final-de-clase
+  776  git status
+  777  ls
+  778  git add history-ubn002-20160910-Final-de-clase
+  779  exirt
+  780  exit
+  781  history
+  782  gitk
+  783  history 
+  784  cd /tmp/
+  785  ls
+  786  sudo apt-get install gparted
+  787  clear
+  788  vi
+  789  sudo apt-get git vim
+  790  sudo apt-get git 
+  791  sudo apt-get install git vim 
+  792  git clone https://github.com/emvarg/LSX2_emmanuel
+  793  git add .
+  794  ls
+  795  cd home
+  796  cd LXS_evargas
+  797  clear
+  798  git clone https://github.com/emvarg/LSX2_emmanuel
+  799  clear
+  800  sudo apt-get install lvm2
+  801  dpkg --get-selections | grep lv
+  802  dpkg --get-selections | grep git
+  803  fdisk -l
+  804  ls
+  805  sudo s
+  806  sudo -s
+  807  fdisk -l
+  808  m
+  809  fdisk /dev/sda
+  810  pv display
+  811  pvc
+  812  pvcreate /dev/sda7
+  813  pvcreate /dev/sda8
+  814  fdisk -l
+  815  fdisk /dev/sda
+  816  yes mamn > /dev/null &
+  817  jobs
+  818  vim /tmp/algo
+  819  history | tail
+  820  ps -l
+  821  vim /tmp/otro
+  822  jobs
+  823  fg %2
+  824  jobs
+  825  fg
+  826  jobs
+  827  vim /etc/hosts
+  828  ping 127.0.0.1
+  829  ping 127.0.0.1 > /dev/null &
+  830  jobs
+  831  pgrep ping
+  832  kill -15 4806
+  833  jobs
+  834  ping 127.0.0.1 > /dev/null 
+  835  bg %4
+  836  jobs
+  837  pgrep ping
+  838  kill -15 4809
+  839  jobs
+  840  bg %4
+  841  ping 127.0.0.1 > /dev/null &
+  842  jobs
+  843  ps aux
+  844  ps -u www-data
+  845  ps aux | grep apache
+  846  kill -15 4820
+  847  nice -10 ls
+  848  nice -10 bash
+  849  ps -l
+  850  for i in 4901 4915 4927; do sudo renice -0 $1; done
+  851  jobs -l
+  852  ps -l
+  853  nice -8 bash
+  854  git clone https://github.com/lohamr/LSX2_lmontoya.git
+  855  git clone https://github.com/lohamr/LXS2_lmontoya.git
+  856  pwd
+  857  ls
+  858  cd LXS2_lmontoya
+  859  ls
+  860  cd src
+  861  vim parametros
+  862  fg
+  863  cp algo otro
+  864  echo $?
+  865  ls
+  866  fg
+  867  ls
+  868  vim parametros_posicionales.sh
+  869  bash parametros_posicionales.sh
+  870  ls ../
+  871  ls
+  872  fg
+  873  bash parametros_posicionales.sh
+  874  ls -l
+  875  cat parametros_posicionales.sh.err
+  876  fg
+  877  git add ../.gitignor
+  878  git status
+  879  git add .
+  880  git commit -m "primer codigo"
+  881  git push origin master
+  882  vim parametros_posicionales.sh
+  883  fg
+  884  vim parametros_posicionales.sh
+  885  git add .
+  886  git commit -m "tercero"
+  887  fg
+  888  vim parametros_posicionales_avanzados.sh
+  889  parametros_posicionales_avanzados.sh
+  890  touch file1
+  891  touch file2
+  892  touch file3
+  893  bash parametros_posicionales_avanzados.sh file1 file2 file3
+  894  ls
+  895  git add .
+  896  git commit -m "tercer codigo if, elif"
+  897  git push origin master
+  898  fg
+  899  git add .
+  900  git commit -m "paso de parametros avanzados"
+  901  git push origin master
+  902  touch prueba
+  903  git add .
+  904  git commit -m "prueba usuario"
+  905  git push origin master
+  906  vim for.sh
+  907  git add .
+  908  git commit -m "ciclo for"
+  909  git push origin master
+  910  vim specvar.sh
+  911  git add .
+  912  git commit -m "Inicio SpecVar.sh"
+  913  git push origin master
+  914  fg
+  915  vim specvar.sh
+  916  bash specvar.sh hola hola hola
+  917  vim specvar.sh
+  918  bash specvar.sh hola hola hola
+  919  vim specvar.sh
+  920  bash specvar.sh hola hola hola
+  921  git add .
+  922  git commit -m "Continuacion  SpecVar.sh"
+  923  git push origin master
+  924  cd ..
+  925  ls
+  926  cd history
+  927  cd ..
+  928  history > history/history-$HOSTNAME-'date +%Y%m%d'
+  929  ls -lt history/
+  930  git status
+  931  git add history/history
+  932  git add .
+  933  git commit -m "respaldo history 8 de oct"
+  934  git push origin master
+  935  cat .git
+  936  cat .gitconfig 
+  937  vim .gitconfig
+  938  pwd
+  939  cd /tmp
+  940  ls
+  941  git clone https://github.com/emvarg/LXS2_emmanuel.git
+  942  ls
+  943  cd LXS2_emmanuel
+  944  ls
+  945  git log
+  946  git pull origin master
+  947  cd ..
+  948  pwd
+  949  ls
+  950  cd home
+  951  ls
+  952  cd sysadmin
+  953  ls
+  954  cd LXS2_lmontoya
+  955  ls
+  956  cd src
+  957  ls
+  958  ./parametros_posicionales.sh
+  959  git status
+  960  git add .
+  961  git commit -m "segundo codigo"
+  962  git push origin master
+  963  ./parametros_posicionales.sh
+  964  ls
+  965  ./parametros_posicionales.sh
+  966  cat parametros_posicionales.sh.err
+  967  bash parametros_posicionales.sh
+  968  parametros_posicionales.sh
+  969  git add .
+  970  git commit -m "tercer codigo"
+  971  git config
+  972  ls
+  973  cd parametros_posicionales.sh
+  974  lsb release -a
+  975  git clone https://github.com/lohamr/LXS2_lmontoya.git
+  976  ls
+  977  cd LXS2_lmontoya
+  978  git push origin proyecto_programado
+  979  git push origin master
+  980  cd src
+  981  cd problema1
+  982  ls
+  983  git push origin proyecto_programado
+  984  cd LXS2_lmontoya
+  985  git push origin proyecto_programado
+  986  git pull origin proyecto_programado
+  987  cd src
+  988  cd problema1
+  989  ls
+  990  vim problema.sh
+  991  ls
+  992  vim problema1.sh 
+  993  sudo apt-get install git
+  994  ln -s /var/libvirt/images/cnt-00.img cnt-00.img
+  995  ln -s /var/libvirt/images/ubn-firewall.img ubn-firewall.img
+  996  sudo apt-get install libvirt-bin qemu-system qemu-kvm virt-manager
+  997  grep virt /etc/group
+  998  sudo usermod -a -G libvirtd sysadmin
+  999  clear
+ 1000  wget http://10.124.18.117/cnt-00.xml
+ 1001  wget http://10.124.18.117/ubn-firewall.xml
+ 1002  id
+ 1003  cd LXS2_lmontoya
+ 1004  history > history/history-$HOSTNAME-"history"
