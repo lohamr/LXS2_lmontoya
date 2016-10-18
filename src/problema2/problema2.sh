@@ -5,10 +5,13 @@ OUT_DATA=$DATA/archivos_csv
 GRAF_DATA=$DATA/datos_graf
 FULL_DATA=$DATA/full_datos
 
+#Aquí se crean las 3 carpetas
 mkdir $DATA/archivos_csv
 mkdir $GRAF_DATA
 mkdir $FULL_DATA
 m=0
+
+#este for convierte los archivos .xlx a .csv y guarda los errores en un archivo llamado error1.log
 
 for i in `find $DATA -name '*.xls' `
 do
@@ -18,6 +21,8 @@ do
 done 2> error1.log
 
 m=0
+
+#Este for cambia los archivos .csv en .dat para que puedan ser graficados y guarda los errores en un archivo llamado error2.log
 
 for e in `find $OUT_DATA -name "*.csv"`
 do
@@ -36,6 +41,7 @@ then
         echo "Archivo full.dat borrado"
 fi 2> errorIf.log
 
+#Este for crea el archivo full.dat que contiene todos los datos .xls en un solo archivo
 
 for k in `find $GRAF_DATA -name "*.dat"`
 do
@@ -49,12 +55,8 @@ FMT_END='6'
 #FMT_X_SHOW=%H:%M
 DATA_DONE=$FULL_DATA/full.dat
 
-#La linea set xrange que esta comentada deja en manos de gnuplot la
-#seleccion del mejor rango en el eje x de forma que aparezcan todos los
-#datos. si la descomentan entonces pueden manejar el despliegue de estos
-#a traves de las variables FMT_BEGIN Y FTM_END. En este caso apareceran
-#todos los datos. Ver fig1.png donde aparecen todos los datos y en fig.p
-#ng solo aparecen los datos como lo establecen las variables.
+#Manejamos el rango de la grafica a traves de las variables FMT_BEGIN Y FTM_END.
+# La linea plot ... using 1:2 ... indica que columnas del archivo full.dat se deben graficar.
 graficar()
 {
         gnuplot << EOF 2> error.log
