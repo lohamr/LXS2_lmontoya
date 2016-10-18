@@ -30,24 +30,24 @@ done 2> error2.log
 #entonces se agregaran mas datos al archivo en lugar de crearlo con los
 #datos generados. O sea, se agregan por cada corrida un duplicado de los mismo
 #s datos.
-#if [ -a $FULL_DATA/full.dat ]
-#then
-#        rm $FULL_DATA/full.dat
-#        echo "Archivo full.dat borrado"
-#fi 2> errorIf.log
+if [ -a $FULL_DATA/full.dat ]
+then
+        rm $FULL_DATA/full.dat
+        echo "Archivo full.dat borrado"
+fi 2> errorIf.log
 
 
-#for k in `find $GRAF_DATA -name "*.dat"`
-#do
-#        sed '1d' $k >> $FULL_DATA/full.dat
-#        echo "Procesando archivo $k"
-#done 2> error3.log
+for k in `find $GRAF_DATA -name "*.dat"`
+do
+        sed '1d' $k >> $FULL_DATA/full.dat
+        echo "Procesando archivo $k"
+done 2> error3.log
 
 
 #FMT_BEGIN='20110206 0000'
 #FMT_END='20110206 0200'
 #FMT_X_SHOW=%H:%M
-#DATA_DONE=$FULL_DATA/full.dat
+DATA_DONE=$FULL_DATA/full.dat
 
 #La linea set xrange que esta comentada deja en manos de gnuplot la
 #seleccion del mejor rango en el eje x de forma que aparezcan todos los
@@ -55,21 +55,21 @@ done 2> error2.log
 #a traves de las variables FMT_BEGIN Y FTM_END. En este caso apareceran
 #todos los datos. Ver fig1.png donde aparecen todos los datos y en fig.p
 #ng solo aparecen los datos como lo establecen las variables.
-#graficar()
-#{
-#        gnuplot << EOF 2> error.log
-#	set xdata time
-#	set timefmt "%Y%m%d %H%M"
+graficar()
+{
+        gnuplot << EOF 2> error.log
+	set xdata time
+	set timefmt "%Y%m%d %H%M"
 #	set xrange ["$FMT_BEGIN" : "$FMT_END"]
 #	set format x "$FMT_X_SHOW"
-#	set terminal png
-#	set output 'fig1.png'
-#	plot "$DATA_DONE" using 1:3 with lines title "sensor1","$DATA_DONE" using 1:4 with linespoints title "sensor2"
-#EOF
+	set terminal png
+	set output 'fig1.png'
+	plot "$DATA_DONE" using 1:2 with lines title "Agua","$DATA_DONE" using 1:2 with linespoints title "Luz"
+EOF
 
-#}
+}
 
-#graficar
+graficar
 
 
 
