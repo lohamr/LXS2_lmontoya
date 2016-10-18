@@ -1,7 +1,0 @@
-         line 0: warning: Skipping data file with no valid points
-         line 0: warning: Skipping data file with no valid points
-
-gnuplot> plot "/home/lohana/LXS2_lmontoya/src/problema2/hojasDatos/full_datos/full.dat" using 1:2 with lines title "Agua","/home/lohana/LXS2_lmontoya/src/problema2/hojasDatos/full_datos/full.dat" using 1:2 with linespoints title "Luz"
-                                                                                                                                                                                                                                          ^
-         line 0: x range is invalid
-

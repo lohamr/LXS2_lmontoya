@@ -44,8 +44,8 @@ do
 done 2> error3.log
 
 
-#FMT_BEGIN='20110206 0000'
-#FMT_END='20110206 0200'
+FMT_BEGIN='1'
+FMT_END='6'
 #FMT_X_SHOW=%H:%M
 DATA_DONE=$FULL_DATA/full.dat
 
@@ -59,12 +59,12 @@ graficar()
 {
         gnuplot << EOF 2> error.log
 	set xdata time
-	set timefmt "%Y%m%d %H%M"
-#	set xrange ["$FMT_BEGIN" : "$FMT_END"]
+	set timefmt "%m"
+	set xrange ["$FMT_BEGIN" : "$FMT_END"]
 #	set format x "$FMT_X_SHOW"
 	set terminal png
 	set output 'fig1.png'
-	plot "$DATA_DONE" using 1:2 with lines title "Agua","$DATA_DONE" using 1:2 with linespoints title "Luz"
+	plot "$DATA_DONE" using 1:2 with lines title "Agua","$DATA_DONE" using 1:3 with linespoints title "Luz"
 EOF
 
 }
