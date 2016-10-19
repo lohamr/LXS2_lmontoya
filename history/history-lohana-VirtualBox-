@@ -1,0 +1,536 @@
+    1  man sudo_root
+    2  apt-get install git vim
+    3  sudo apt-get install git vim
+    4  vim .gitconfig
+    5  git config --global user.name "lohana"
+    6  git config --global user.email loha.montoy@gmail.com
+    7  vim .gitconfig
+    8  pwd
+    9  ls
+   10  cd Documentos
+   11  ls
+   12  cd Proyecto2
+   13  ls
+   14  cd ..
+   15  pwd
+   16  ls
+   17  cd home
+   18  ls
+   19  cd lohana
+   20  sudo -s
+   21  vim .gitconfig
+   22  git clone https://github.com/lohamr/LXS2_lmontoya.git
+   23  sudo rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-
+   24  sudo apt-get  rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-
+   25  rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-
+   26  sudo apt-get install rpm
+   27  sudo rpm -Uhv http://packages.sw.be/rpmforge-release/rpmforge-
+   28  sudo apt-get install catdoc
+   29  sudo apt-get install gnuplot
+   30  git branch proyecto_programado
+   31  git clone https://github.com/lohamr/LXS2_lmontoya.gitgit clone https://github.com/lohamr/LXS2_lmontoya.git
+   32  git clone https://github.com/lohamr/LXS2_lmontoya.git
+   33  pwd
+   34  cd lohana
+   35  ls
+   36  cd LXS2_lmontoya
+   37  git branch proyecto_programado
+   38  git checkout proyecto_programado
+   39  vim test.rb
+   40  git commit -a -m "made a change"
+   41  git add .
+   42  git commit -a -m "made a change"
+   43  git push origin proyecto_programado
+   44  ls
+   45  cd src
+   46  vim problema1.sh
+   47  rm problema1.sh
+   48  ls
+   49  mkdir problema1
+   50  vim problema1.sh
+   51  ls
+   52  rm problema1.sh
+   53  ls
+   54  cd problema1
+   55  vim problema1.sh
+   56  cd ..
+   57  mkdir problema2
+   58  cd problema2
+   59  vim problema2.sh
+   60  ls
+   61  cd ..
+   62  cd problema1
+   63  vim problema1.sh
+   64  pwd
+   65  fg
+   66  mkdir hojasDatos
+   67  vim problema1.sh
+   68  pwq
+   69  pwd
+   70  cd hojasDatos
+   71  ls
+   72  pwd
+   73  cd ..
+   74  fg
+   75  chmod +x
+   76  chmod +x problema1.sh 
+   77  ./problema1.sh 
+   78  cd hojasDatos
+   79  ls
+   80  cd archivos_csv
+   81  ls
+   82  cd ..
+   83  vim problema1.sh
+   84  ./problema1.sh 
+   85  touch salida_script
+   86  ./problema1.sh > salida_script
+   87  problema1.sh > salida_script
+   88  cat salida_script 
+   89  ./problema1.sh > salida_script
+   90  cat salida_script 
+   91  cd ..
+   92  git add .
+   93  git commit -m "hasta el momento ya tengo el primer script listo, los documentos en formato csv, la salida del script guardado en un documento"
+   94  git push origin proyecto_programado 
+   95  ls
+   96  cd src
+   97  ls
+   98  cd problema1
+   99  ls
+  100  cd hojasDatos
+  101  ls
+  102  cd ..
+  103  vim problema1.sh
+  104  ls
+  105  cd hojasDatos
+  106  ls
+  107  cd archivos_csv
+  108  ls
+  109  cat data-0.csv 
+  110  cd .. 
+  111  cd ..
+  112  ls
+  113  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  114  ls
+  115  cd hojasDatos
+  116  ls
+  117  cd archivos_csv
+  118  ls
+  119  cat data-0.csv 
+  120  cd ..
+  121  cd archivos_csv
+  122  cd hojasDatos
+  123  cd archivos_csv
+  124  cat data-1.csv 
+  125  cd ..
+  126  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' |sed '1,$ s/"//g'| head
+  127  cd hojasDatos
+  128  cd archivos_csv
+  129  cat data-1.csv 
+  130  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' |sed '1,$ s/"//g'| head
+  131  cat data-2.csv
+  132  cd ..
+  133  cd problema1
+  134  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' |sed '1,$ s/"//g'| head
+  135  iconv -f iso-8859-1 -t utf-8 Datos >> datos.utf-8.out
+  136  iconv -f iso-8859-1 -t utf-8 hojasDatos >> datos.utf-8.out
+  137  iconv -f iso-8859-1 -t utf-8 data >> datos.utf-8.out
+  138  iconv -f iso-8859-1 -t utf-8 problema1 >> datos.utf-8.out
+  139  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' | head
+  140  cat hojasDatos/archivos_csv/data-0.csv
+  141  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 $2 $3 $4 $5}' | head
+  142  cat hojasDatos/archivos_csv/data-0.csv
+  143  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' |sed '1,$ s/"//g'| head
+  144  cat hojasDatos/archivos_csv/data-0.csv | awk -F "\",\""'{print $1 " " $2 " " $3 " " $4 " " $5}' |sed '1,$ s/"//g'| sed '1 s/date/#date/g' | head
+  145  echo "todo el comando" >>programa.sh
+  146  ls
+  147  vim programa.sh
+  148  cd hojasDatos
+  149  ls
+  150  pwd
+  151  fg
+  152  cd ..
+  153  fg
+  154  ls
+  155  chmod +x programa.sh 
+  156  touch salida_script_programa
+  157  ./programa.sh > salida_script_programa 
+  158  ./programa.sh
+  159  cd ..
+  160  git add .
+  161  git commit -m "se realizó el segundo script que creo la carpeta datos_graf"
+  162  git push origin proyecto_programado 
+  163  history > history/history-$HOSTNAME-'date +%Y%m%d'
+  164  git add .
+  165  git commit -m "History 10/10/2016"
+  166  git push origin proyecto_programado 
+  167  ls
+  168  cd src
+  169  cd ..
+  170  history > history/history-$HOSTNAME-`date +%Y%m%d`
+  171  git add .
+  172  git commit -m "History2"
+  173  git push origin proyecto_programado 
+  174  ls
+  175  cd src
+  176  ls
+  177  cd problema1
+  178  ls
+  179  cd hojasDatos
+  180  ls
+  181  mkdir plot
+  182  cp *.dat plot
+  183  cp graf-0.dat plot
+  184  ls
+  185  cd plot
+  186  ls
+  187  cd ..
+  188  ls
+  189  vim graficos.sh
+  190  ls
+  191  cd hojasDatos
+  192  ls
+  193  cd plot
+  194  ls
+  195  rm graficos.sh
+  196  ls
+  197  cd ..
+  198  chmod +x graficos.sh
+  199  ls
+  200  ./graficos.sh 
+  201  cd hojasDatos
+  202  ls
+  203  cd plot
+  204  ls
+  205  ./graficos.sh 
+  206  graficos.sh
+  207  bash graficos.sh
+  208  vim graficos.sh
+  209  ./graficos.sh 
+  210  vim graficos.sh
+  211  ./graficos.sh 
+  212  chmod +x graficos.sh 
+  213  ./graficos.sh 
+  214  cd ..
+  215  git add .
+  216  git commit -m "intento de realizar primer gráfico, ./graficos.sh "
+  217  ./graficos.sh: línea 3: 0220: orden no encontrada
+  218  git push origin proyecto_programado 
+  219  pwd
+  220  ls
+  221  cd LXS2_lmontoya
+  222  ls
+  223  cd src
+  224  ls
+  225  cd problema1
+  226  ls
+  227  cd hojasDatos
+  228  ls
+  229  cd plot
+  230  vim graficos.sh
+  231  ./graficos.sh 
+  232  chmod +x graficos.sh 
+  233  ./graficos.sh 
+  234  exit
+  235  ls
+  236  cd LXS2_lmontoya
+  237  git pull origin proyecto_programado 
+  238  pwd
+  239  ls
+  240  cd LXS2_lmontoya
+  241  ls
+  242  cd src
+  243  ls
+  244  cd problema1
+  245  ls
+  246  cd hojasDatos
+  247  cd plot2
+  248  set title "prueba_grafico"
+  249  set xlabel "Tiempo (ms)"
+  250  set ylabel "Corriente (A)"
+  251  set xrange [0.001:0.005]
+  252  set yrange [20:500]
+  253  set autoscale
+  254  set label "etiqueta 1" at 0.003, 260
+  255  unset label
+  256  set logscale
+  257  unset logscale; set logscale y
+  258  gnuplot> set xdata time
+  259  gnuplot set time fmt "%Y%m$d%H%M"
+  260  gnuplot> set time fmt "%Y%m$d%H%M"
+  261  gnuplot> set xrange ["20110206 00" : "20110206 0200"]
+  262  cd LXS2_lmontoya
+  263  cd src
+  264  cd problema1
+  265  cd hojasDatos
+  266  cd plot
+  267  ls
+  268  ./graficos.sh
+  269  shutdown
+  270  LXS2_lmontoya
+  271  pwd
+  272  ls
+  273  cd LXS2_lmontoya
+  274  cd src
+  275  ls
+  276  vim parametros_posicionales_avanzados.sh
+  277  cd ..
+  278  ls
+  279  vim problema1.sh
+  280  rm problema1.sh 
+  281  ls
+  282  pwd
+  283  ls
+  284  vim problema1.sh
+  285  cp problema1.sh home/lohana
+  286  cd LXS2_lmontoya
+  287  cd src
+  288  cd problema 1
+  289  cd problema1
+  290  cp problema1.sh home/lohana
+  291  cd ..
+  292  mkdir prueba
+  293  ls
+  294  ls
+  295  cd escritorio
+  296  cd Escritorio
+  297  ls
+  298  cd hojasDatos
+  299  ls
+  300  vim problema1.sh
+  301  ./problema1.sh 
+  302  history
+  303  cd ..
+  304  pwd
+  305  vim -help
+  306  sudo apt-get install gnuplot
+  307  gnuplot --help
+  308  gnuplot -d
+  309  pwd
+  310  ls
+  311  cd LXS2_lmontoya
+  312  cd src
+  313  cd problema1
+  314  ls
+  315  cd hojasDatos
+  316  ls
+  317  cd plot
+  318  ls
+  319  rm fig1.png
+  320  ls
+  321  gnuplot> set xdata time
+  322  ./graficos.sh 
+  323  ls
+  324  gnuplot> set xdata time
+  325  gnuplot> set graf-0.dat time
+  326  gnuplot> set "graf-0.dat" time
+  327  cd ..
+  328  ls
+  329  history > history/history-$HOSTNAMe-`date +%Y%m%d`
+  330  git add .
+  331  git push origin proyecto_programado 
+  332  git status
+  333  git push origin proyecto_programado 
+  334  git status
+  335  git commit -m "realicé pruebas con gnuplot, con los comandos a ver si me funcionaba y no funciona"
+  336  git push origin proyecto_programado 
+  337  vim .gitconfig
+  338  history
+  339  pwd
+  340  ls
+  341  cd LXS2_lmontoya
+  342  ls
+  343  cd src
+  344  history
+  345  ls
+  346  cd problema1
+  347  ls
+  348  vim problema1.sh
+  349  ./problema1.sh
+  350  ./problema1.sh > salida_super_script
+  351  ./problema1.sh
+  352  shutdown
+  353  gnuplot
+  354  sudo apt-get install libjpeg
+  355  dpkg
+  356  dpkg | less
+  357  dpkg -l | grep paq
+  358  dpkg -l
+  359  cd LXS2_lmontoya
+  360  history > history/history-$HOSTNAME-`date +%Y%m%d`
+  361  git add -
+  362  git add .
+  363  git status
+  364  git commit -m "Arreglé los errores que me dio errorlog y ya puedo ver la imagen, pero no está el gráfico bien hecho nomuestra las líneas de los datos, puede ser que algo en los datos este mal, ya casi lo logro. :-)"
+  365  git push origin proyecto_programado 
+  366  git branch
+  367  cd LXS2_lmontoya
+  368  git branch
+  369  cd src
+  370  cd problema1
+  371  git branch > salida_git_branch
+  372  ls
+  373  cd ..
+  374  cd problema2
+  375  mkdir hojasDatos
+  376  ls
+  377  cd ..
+  378  cd problema1
+  379  cd hojasDatos
+  380  cd plot
+  381  gnuplot
+  382  cd ..
+  383  gnuplot
+  384  cd hojasDatos
+  385  cd plot
+  386  ls
+  387  rm fig1.png
+  388  ls
+  389  cd ..
+  390  cd problema1
+  391  ls
+  392  ./problema1.sh 
+  393  vim problema1.sh
+  394  ./problema1.sh 
+  395  cd ..
+  396  git add .
+  397  git status
+  398  git commit -m "revisé el script ya que me en errorlog tenía un error que decía  que la dirección era ambigua y había un error, borre todo lo que el script había creado anteriormente y volví a correr el scrip pero esta vez creó las carpetas vacías, no hay archivos .dat"
+  399  git push origin proyecto_programado 
+  400  cd src
+  401  cd problema1
+  402  vim problema1.sh 
+  403  ls
+  404  cd hojasDatos
+  405  ls
+  406  cd ..
+  407  ./problema1.sh 
+  408  vim problema1.sh 
+  409  ./problema1.sh 
+  410  vim problema1.sh 
+  411  ./problema1.sh 
+  412  vim problema1.sh 
+  413  ./problema1.sh 
+  414  git add .
+  415  git commit -m "comenté una línea más, la que me daba error el error.log y ya no tengo ningún error pero sigo sin ver la líneas de los datos"
+  416  git push origin proyecto_programado 
+  417  cd LXS2_lmontoya
+  418  git add .
+  419  git commit -m "Lo logré"
+  420  git push origin proyecto_programado 
+  421  git add .
+  422  git commit -m "Ya cree las primeras carpetas y archivos .dat para el segundo problema"
+  423  git push origin proyecto_programado 
+  424  git add .
+  425  git commit -m "intento de graficar, error en errorlog"
+  426  git push origin proyecto_programado 
+  427  lohamna2214
+  428  git push origin proyecto_programado 
+  429  git add.
+  430  git add .
+  431  git commit -m "el script funciona, me falta comentarlo"
+  432  git push origin proyecto_programado 
+  433  git add .
+  434  git commit -m "script listo y grafico documentado"
+  435  git push origin proyecto_programado 
+  436  cd LXS2_lmontoya/src/problema1
+  437  ls
+  438  vim problema1.sh 
+  439  pwd
+  440  fg
+  441  ls
+  442  cd hojasDatos/
+  443  ls
+  444  cd ..
+  445  ./problema1.sh 
+  446  vim problema1.sh 
+  447  cd LXS2_lmontoya/src/problema2
+  448  ls
+  449  vim problema2.sh 
+  450  chmod +x problema2.sh 
+  451  ./problema2.sh 
+  452  ls
+  453  cd hojasDatos/
+  454  ls
+  455  cd datos_graf/
+  456  ls
+  457  cat graf-0.dat 
+  458  cd ..
+  459  vim problema2.sh 
+  460  ./problema2.sh 
+  461  vim problema2.sh 
+  462  ./problema2.sh 
+  463  vim problema2.sh 
+  464  ./problema2.sh 
+  465  vim problema2.sh 
+  466  ./problema2.sh 
+  467  vim problema2.sh 
+  468  ./problema2.sh 
+  469  vim problema2.sh 
+  470  ./problema2.sh 
+  471  vim problema2.sh 
+  472  git checkout master
+  473  cd LXS2_lmontoya/
+  474  git checkout master
+  475  git merge proyecto_programado 
+  476  git add .
+  477  git commit -m "listo"
+  478  git push origin master
+  479  git merge proyecto_programado 
+  480  git branch
+  481  git status
+  482  git push origin master
+  483  git push 
+  484  git push origin proyecto_programado 
+  485  git add .
+  486  git status
+  487  git checkout proyecto_programado 
+  488  git merge master
+  489  git add .
+  490  git commit -m "listo"
+  491  git status
+  492  ls
+  493  touch prueba
+  494  git merge master
+  495  git commit -m "listo"
+  496  git add .
+  497  git commit -m "listo"
+  498  git merge master
+  499  git push origin master
+  500  git status
+  501  git add .
+  502  git status
+  503  git branch
+  504  git checkout
+  505  git checkout master
+  506  git status
+  507  git merge master
+  508  git status
+  509  git push origin master
+  510  vim .gitconfog
+  511  vim .gitconfig
+  512  cd LXS2_lmontoya/
+  513  ls
+  514  touch prueba
+  515  ls
+  516  git add .
+  517  git commit -m "prueba"
+  518  git push origin master
+  519  cd ..
+  520  ls
+  521  git clone https://github.com/lohamr/LXS2_lmontoya.git
+  522  ls
+  523  cd LXS2_lmontoya
+  524  ls
+  525  git branch
+  526  cd src3
+  527  cd src
+  528  ls
+  529  cd problema1
+  530  ls
+  531  cd ..
+  532  git pull origin proyecto_programado 
+  533  git status
+  534  git push origin master
+  535  git branch
+  536  history > history/history-$HOSTNAME-`date %Y%m%d`
